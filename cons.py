@@ -67,7 +67,7 @@ dct = {1:[
            'Familiyangiz, Ismingiz va otangizni ismini quyidagi korinishda kiriting: \n\n\n_👤Rustamjonov Ilhomjon Anvar o’g’li_',  # 2
            'Yashash joyingizdi tanlang:',  # 3
            'Yashash tumaningizdi tanlang',  # 4
-           '*Kim sifatida ishga kirmoqchisiz?*\n\n_Bir nechasini tanlash mumkin_',  # 5
+           '*Kim sifatida ishga kirmoqchisiz?*',  # 5
            '⏩Keyingisi⏩',  # 6
            'Ishsizman, yangi ish joy qidiryapman',  # 7
            'Ishlayman, lekin, ish joyimni o`zgartirmoqchiman',  # 8
@@ -82,13 +82,16 @@ dct = {1:[
            '*Qayerda o`qiysiz?*\n\n_Inha universitetida, 3-kurs_',  # 17
            '*Hozirgacha nechta ishxonada ishlagansiz?*',  # 18
            '*Ish tajribangiz haqida aytib bering:*\n\n_1-ish joyingiz nomi, u yerda nima vazifada, qaysi yillar ishlagansiz?\n2-ish joyingiz nomi, u yerda nima vazifada, qaysi yillar ishlagansiz?_',  # 19
-           '*Nega ishlab turgan joyingizdan chiqib ketmoqchisiz?*\n\n_Masalan: Oylik past, Muhit yomon , Sharoitlar yaxshi emas, Ishxona uzoqlik qilyapti  _',  # 20
+           '*Nega ishlab turgan joyingizdan chiqib ketmoqchisiz?*\n\n_Bir nechasini tanlash mumkin_',  # 20
            '*Ingliz tilini bilish darajangizni* `0-10` *orasida baholang:*',  # 21
            '*Rus tilini bilish darajangizni* `0-10` *orasida baholang*',  # 22
            '☎️*Asosiy telefon raqamingizdi kiriting:* \n\n\n📞`901362632`',  # 23
            "☎️*Qo'shimcha telefon raqamingizdi kiriting:* \n\n\n📞`946578439`",  # 24
            '📸Rasmingizni yuborin:',  # 25
-           '❗️❗️❗️Tanlang:',
+           '❗️❗️❗️Tanlang:', # 26
+           '✅ Siz muvaffaqiyatli ro`yxatdan o`tdingiz \n\n⏳ Arizangiz ko`rib chiqilmoqda\n\n🕰 Tez orada biz siz bilan bog`lanamiz\n\n🤗 "Merit_Vacancy"botidan foydalanganingiz uchun siz Rahmat.',
+           '⬅️Qaytish⬅️',
+           'Qayta to`ldirish',
 
        ]}
 
@@ -116,3 +119,14 @@ joblist ={
     2:["O'qituvchi", "Tarbiyachi", "Metodist", "Direktor", "Zavuch", "Psixolog", ],
     3:["Teacher", "Tutor", "Methodologist", "Director", "Head Teacher", "Psychologist"]
 }
+
+
+maindct = {
+    1:['Админ меню','Добавить', 'Удалить', 'Доб./Удалить администратора', 'Введите user_id'],
+    2:['Admin menyu', 'Qo`shih', 'O`chirish', 'Admin qo`shih/o`chirish', 'user_id kiriting:'],
+    3:['Admin menu', 'Add', ' Delete', 'Add/Delete admin','Enter user_id:']
+}
+
+
+
+rlist = ["Маленькая зарплата","Окружающая среда плохая","Плохие условия","Работа находится в далеки от дома","Oylik past","Muhit yomon","Sharoitlar yaxshi emas","Ishxona uzoqlik qilyapti","small salary","The environment is bad","Poor conditions","The job is located far from home",]
